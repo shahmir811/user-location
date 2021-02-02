@@ -21,7 +21,22 @@ Our task is to create a simple interface to show a dropdown of users and a build
 - Not used create-react-app. Build whole application from scratch, developed own boiler plate.
 - Not used ant react library/wrapper for Google Maps API.
 - Followed only functional paradigm.
-- You can use ContextAPI for managing the state and data logic.
-- You can use `useReducer` hook for actions and state updates.
-- You can fake-fetching data with `Promises` and `setTimeout` to show loaders.
-- Create users, buildings models as you needed. Store all data in localStorage no need to use/write Rest API.
+- Used ContextAPI for managing the state and data logic.
+- Used `useReducer` hook for actions and state updates.
+- Fake-fetching data with `Promises` and `setTimeout` to show loaders.
+- Created users, buildings models and store all data in localStorage no need to use/write Rest API.
+
+### Remember
+
+I have used my own google maps api and stored it inside `.env` file as _GOOGLE_MAP_API_. So create `.env` file at root and store your api with same name _GOOGLE_MAP_API_
+
+### Code Execution
+
+`yarn start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+`yarn run build`
+
+Builds the app for production to the `dist` folder.
