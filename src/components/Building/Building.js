@@ -50,7 +50,7 @@ const Building = () => {
 				{buildingList.map((building) => (
 					<p
 						value={building.id}
-						key={building.id}
+						key={building.buildingId}
 						className={`buildings-component-building-name ${
 							selectedBuilding &&
 							building.buildingId === selectedBuilding.buildingId
